@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: sasdbpy
+Version: 0.0.1
+Summary: A helper class for reading sas7bdat database files
+Home-page: https://github.com/cereddy/sasdbpy
+Author: Cereddy
+Author-email: nacer.htag@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cereddy/sasdbpy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# Sasdbpy
+
+This is a simple helper class to read and use data stored in sas7bdat format, without having Sas.
+
+This code will help you:
+
+- explore a folder and identify all sas7bdat present therein
+- have them organized in a python dictionary with, for each file:
+    - the data as a pandas Dataframe
+    - a field name mapper from the coded field name to the description from the meta data
+    - a more detailed fields characteristics dataframe with information of Type, Length, Format
+- Two search functions on the field names:
+    - search_field, to identify fields from the database containing a certain string
+    - search_field_description, to identify fields from a string contained in their description
+
+
+

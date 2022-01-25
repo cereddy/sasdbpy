@@ -1,0 +1,7 @@
+README.md
+setup.py
+sasdbreader/example_package_YOUR_USERNAME_HERE.egg-info/PKG-INFO
+sasdbreader/example_package_YOUR_USERNAME_HERE.egg-info/SOURCES.txt
+sasdbreader/example_package_YOUR_USERNAME_HERE.egg-info/dependency_links.txt
+sasdbreader/example_package_YOUR_USERNAME_HERE.egg-info/top_level.txt
+test/testSasDbReader.py
