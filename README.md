@@ -17,7 +17,7 @@ This code will help you:
 # Usage
 
 ```
-from sasdbreader.SasDbReader import SasDbReader
+from sasdbpy.sasdbreader import SasDbReader
 sdb = SasDbReader("[the folder path with the sas files]")
 
 # get list of tables found
@@ -25,7 +25,7 @@ list_tables = list(sdb.res_data.keys())
 
 #get the dataframe for one of the tables
 table_name = list_tables[0]
-df = sbd.res_data[table_name]['data']
+df = sdb.res_data[table_name]['data']
 
 #get field description map
 sdb.res_data[table_name]['detail_fields']
