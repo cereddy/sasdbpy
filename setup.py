@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="sasdbpy",
-    version="0.0.6",
+    version="0.0.8",
     author="Cereddy",
     author_email="nacer.htag@gmail.com",
     description="A helper class for reading sas7bdat database files",
